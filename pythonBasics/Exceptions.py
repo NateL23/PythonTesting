@@ -1,7 +1,7 @@
 items_in_cart = 0
 if items_in_cart != 2:
    pass
-   # raise Exception('ERR: counts not matching')
+   # $ raise Exception('ERR: counts not matching')
 
 assert(items_in_cart == 0)
 

@@ -16,7 +16,8 @@ class Calculator:
         print('The default constructor is called automatically when object is created')
         # default constructor
 
-    def get_data(self):
+    @staticmethod
+    def get_data():
         print('I am now executing as method in class')
 
     def add_func(self):

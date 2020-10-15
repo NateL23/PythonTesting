@@ -16,6 +16,8 @@ print('{} {}'.format('Value is', b))
 print(type(b))
 print(type(c))
 print(type(d))
-# ><class 'int'>
-# ><class 'float'>
-# ><class 'str'>
+'''
+ <class 'int'>
+ <class 'float'>
+ <class 'str'>
+'''
