@@ -17,10 +17,8 @@ dropdown.select_by_visible_text("Male")
 # select "Male" by visible text
 dropdown.select_by_index(1)
 # select 'Female' option using index
-'''
-$ dropdown.select_by_value()
-select using 'value' attribute
-'''
+# $ dropdown.select_by_value()
+# select using 'value' attribute
 
 # $ driver.find_element_by_xpath("//input[@type='submit']").click()
 driver.find_element_by_xpath("//*[contains(@type, 'submit')]").click()
