@@ -1,5 +1,5 @@
 # child class inherits Calculator class as parent
-from pythonBasics.OopsDemo import Calculator
+from python_basics.OopsDemo import Calculator
 
 
 class ChildCalc(Calculator):
