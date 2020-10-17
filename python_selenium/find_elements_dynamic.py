@@ -1,5 +1,4 @@
 import time
-
 from selenium import webdriver
 
 driver = webdriver.Chrome(executable_path='/Users/natemac/Documents/Repo/chromedriver')
@@ -12,7 +11,7 @@ time.sleep(2)
 # do not use these in real development
 
 countries = driver.find_elements_by_css_selector("li[class='ui-menu-item'] a")
-print('Amount of countries: ' + len(countries))
+print('Amount of countries: ' + str(len(countries)))
 for country in countries:
     if country.text == "India":
         country.click()
